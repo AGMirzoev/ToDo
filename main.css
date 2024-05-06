@@ -193,7 +193,7 @@ body {
 	height: 21px;
 	border: 1px solid #998899;
 	border-radius: 50%;
-	flex: 0 0 auto;
+	flex: 0 0 21px;
 }
 
 .todo__checkbox::before {
@@ -228,7 +228,7 @@ body {
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
-	flex: 0 0 auto;
+	flex: 0 0 20px;
 }
 
 .todo__btn::before,
