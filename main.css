@@ -180,7 +180,7 @@ body {
 	width: 370px;
 }
 
-.tudu__checkbox {
+.todo__checkbox {
 	position: relative;
 	display: block;
 	width: 21px;
@@ -189,7 +189,7 @@ body {
 	border-radius: 50%;
 }
 
-.tudu__checkbox::before {
+.todo__checkbox::before {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -203,7 +203,7 @@ body {
 	transition: 0.2s ease-in;
 }
 
-.todo__input:checked + .tudu__checkbox::before {
+.todo__input:checked + .todo__checkbox::before {
 	transform: translate(-50%, -50%) scale(1);
 }
 
