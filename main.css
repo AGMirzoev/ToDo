@@ -136,6 +136,7 @@ body {
 }
 
 .todo__app {
+	width: 476px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -149,6 +150,7 @@ body {
 }
 
 .todo__list {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	row-gap: 6px;
@@ -172,12 +174,14 @@ body {
 }
 
 .todo__input {
-	width: 100%;
+	flex: 0 0 auto;
+	/* width: 100%; */
 }
 
 .todo__text {
 	display: block;
-	width: 370px;
+	flex: 0 0 90%;
+	/* width: 375px; */
 }
 
 .todo__checkbox {
@@ -187,6 +191,7 @@ body {
 	height: 21px;
 	border: 1px solid #998899;
 	border-radius: 50%;
+	flex: 0 0 auto;
 }
 
 .todo__checkbox::before {
@@ -221,6 +226,7 @@ body {
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
+	flex: 0 0 auto;
 }
 
 .todo__btn::before,
