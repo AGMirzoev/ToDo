@@ -136,7 +136,7 @@ body {
 }
 
 .todo__app {
-	width: 476px;
+	max-width: 476px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -183,7 +183,7 @@ body {
 
 .todo__text {
 	display: block;
-	flex: 0 0 90%;
+	flex: 1 1 auto;
 }
 
 .todo__checkbox {
